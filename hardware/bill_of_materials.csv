@@ -1,0 +1,9 @@
+﻿Component,Quantity,Reported cost BDT,Notes
+Arduino UNO R3,1,950,Robot controller
+Arduino Mega 2560 R3,1,1500,Sensor controller
+USB Type-B cable,1,200,Serial connection
+L298N motor driver,1,300,Motor control
+DC gear motors,4,300,Reported table amount
+Lithium-ion batteries,4,360,Reported table amount
+DS18B20 sensor,1,200,Temperature
+MAX30102 sensor,1,345,PPG and SpO2

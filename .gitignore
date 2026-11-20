@@ -1,0 +1,30 @@
+﻿# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+website_references_review.txt
+
+# Arduino build output
+*.hex
+*.elf
+*.eep
+*.map
+build/
+build-*/
+.arduinoIDE/
+
+# Python cache (if scripts are added later)
+__pycache__/
+*.pyc
+.venv/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
