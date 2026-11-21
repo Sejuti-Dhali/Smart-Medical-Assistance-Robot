@@ -300,6 +300,27 @@ footer {
   }
 }
 </style>
+<style>
+.hero-visual {
+  margin: 35px 0;
+  max-width: 100%;
+}
+
+.hero-visual img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid #F0DDD7;
+}
+
+.visual-caption {
+  font-size: 12px;
+  color: #786C6A;
+  margin-top: 10px;
+  font-style: italic;
+}
+</style>
 </head>
 <body>
 
@@ -320,7 +341,15 @@ footer {
     Bluetooth-controlled robotic mobility, digital temperature
     sensing, and MAX30102 optical physiological monitoring.
   </p>
-  <div class="tags">
+  <div class="hero-visual">
+  <img
+    src="media/robot_overview.png"
+    alt="Conceptual illustration of the robot mobility and physiological monitoring subsystems">
+  <p class="visual-caption">
+    Conceptual hardware visualization; not an actual prototype photograph.
+  </p>
+</div>
+<div class="tags">
     <span class="tag">Arduino UNO</span>
     <span class="tag">Arduino Mega</span>
     <span class="tag">HC-05 Bluetooth</span>
@@ -405,28 +434,28 @@ footer {
         <img src="hardware/circuit_diagrams/robot_circuit.png"
              alt="Robot control logical circuit" loading="lazy">
       </div>
-      <figcaption>Fig. 1 â€” Robot mobility control</figcaption>
+      <figcaption>Fig. 1 Ã¢â‚¬â€ Robot mobility control</figcaption>
     </figure>
     <figure>
       <div class="diagram">
         <img src="hardware/circuit_diagrams/bluetooth_circuit.png"
              alt="Bluetooth circuit" loading="lazy">
       </div>
-      <figcaption>Fig. 2 â€” HC-05 Bluetooth interface</figcaption>
+      <figcaption>Fig. 2 Ã¢â‚¬â€ HC-05 Bluetooth interface</figcaption>
     </figure>
     <figure>
       <div class="diagram">
         <img src="hardware/circuit_diagrams/max30102_circuit.png"
              alt="MAX30102 circuit" loading="lazy">
       </div>
-      <figcaption>Fig. 3 â€” MAX30102 optical sensing</figcaption>
+      <figcaption>Fig. 3 Ã¢â‚¬â€ MAX30102 optical sensing</figcaption>
     </figure>
     <figure>
       <div class="diagram">
         <img src="hardware/circuit_diagrams/temperature_circuit.png"
              alt="DS18B20 circuit" loading="lazy">
       </div>
-      <figcaption>Fig. 4 â€” DS18B20 temperature interface</figcaption>
+      <figcaption>Fig. 4 Ã¢â‚¬â€ DS18B20 temperature interface</figcaption>
     </figure>
   </div>
 </section>
@@ -495,7 +524,7 @@ footer {
 </main>
 
 <footer>
-  Smart Medical Assistance Robot Â· Educational Engineering Prototype
+  Smart Medical Assistance Robot Ã‚Â· Educational Engineering Prototype
 </footer>
 </body>
 </html>

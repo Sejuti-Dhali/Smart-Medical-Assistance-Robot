@@ -1,4 +1,8 @@
-﻿# Smart Medical Assistance Robot
+# Smart Medical Assistance Robot
+![Conceptual illustration of the robotic mobility and physiological monitoring subsystems](media/robot_overview.png)
+
+*Figure 1. Conceptual hardware visualization of the robotic mobility and physiological monitoring subsystems. This is an illustrative rendering, not a photograph of the assembled prototype.*
+
 
 An Arduino-based biomedical robotics prototype
 integrating Bluetooth-controlled mobility,
