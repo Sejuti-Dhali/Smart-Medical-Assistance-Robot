@@ -142,3 +142,38 @@ emergency decision-making, or patient monitoring.
 The repository includes an MIT LICENSE file.
 Third-party and jointly authored materials remain
 subject to their respective ownership and permissions.
+
+
+## Premium Biophilic Website Design
+
+**Visual direction:** Nature-Inspired Medical Engineering
+
+The website uses a nature-inspired design system
+with refined typography, organic shapes, responsive
+layouts, subtle motion, and accessible interaction
+states.
+
+### Design Tokens
+
+| Role | Value |
+|---|---|
+| Primary | `#233A35` |
+| Secondary | `#68847C` |
+| Accent | `#B98165` |
+| Surface | `#F5F4EF` |
+| Pale | `#DFE9E4` |
+
+### Enhancement Architecture
+
+- `biophilic-premium.css`: Independent visual layer
+- `biophilic-premium.js`: Progressive UI enhancement
+- Existing application files: Preserved
+
+The design enhancement does not introduce a backend,
+clinical diagnosis, authentication, or hardware
+integration. Existing project limitations still apply.
+
+### Accessibility
+
+The enhancement includes keyboard focus indicators,
+responsive typography, and reduced-motion support.
